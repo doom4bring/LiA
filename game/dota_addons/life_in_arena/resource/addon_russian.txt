@@ -626,10 +626,6 @@
 		"DOTA_Tooltip_ability_general_magic_armor_Description"	"Генерал заколдовывает свои доспехи, тем самым снижая любой физический урон."
 		"DOTA_Tooltip_ability_general_magic_armor_incoming_damage_percentage"	"%СНИЖЕНИЕ ПОЛУЧАЕМОГО ФИЗИЧЕСКОГО УРОНА:"
 
-
-		"DOTA_Tooltip_ability_royal_naga_guard_sea_wave"	"Морская Волна"
-		"DOTA_Tooltip_ability_royal_naga_guard_sea_wave_Description"	"Волна магической энергии, исходящая от героя и наносящая урон всем наземным противникам, оказавшимся у нее на пути."
-
 		//чен(святой рыцарь)
 		"DOTA_Tooltip_ability_paladin_blizzard"	"Буран"
 		"DOTA_Tooltip_ability_paladin_blizzard_Description"	"Вызов снежных вихрей, каждую секунду наносящих урон всем войскам в указанной области и оглушающих их на 0.25 секунды. Максимальное число целей ограничено."
@@ -1408,6 +1404,9 @@
 		"DOTA_Tooltip_ability_skeleton_thief_obsession_damage"	"ДОПОЛНИТЕЛЬНЫЙ УРОН:"	
 		
 		//слардар(НРГ)
+		"DOTA_Tooltip_ability_royal_naga_guard_sea_wave"	"Морская Волна"
+		"DOTA_Tooltip_ability_royal_naga_guard_sea_wave_Description"	"Волна магической энергии, исходящая от героя и наносящая урон всем наземным противникам, оказавшимся у нее на пути."
+		
 		"DOTA_Tooltip_ability_naga_royal_guard_persistence"	"Стойкость"
 		"DOTA_Tooltip_ability_naga_royal_guard_persistence_Description"	"Гвардеец наращивает свою силу и защиту."
 		"DOTA_Tooltip_ability_naga_royal_guard_persistence_bonus_armor"	"+$armor"
