@@ -1001,205 +1001,103 @@
 		"DOTA_Tooltip_modifier_huntress_ritual"	"Ритуал"
 		"DOTA_Tooltip_modifier_huntress_ritual_Description"	"Урон и скорость атаки Охотницы возросли."
 		
+		//ликан(вампир)
+				"DOTA_Tooltip_ability_vampire_life_drain"	"Высосать Жизнь"
+		"DOTA_Tooltip_ability_vampire_life_drain_Description"	"Вампир начинает высасывать жизнь из всех врагов в радиусе 375, нанося им урон и вылечивая себя. Урон зависит от количества <font color='#cc0605'>пунктов жажды</font> Вампира. Также наносится некоторое постоянное значение урона."
+		"DOTA_Tooltip_ability_vampire_life_drain_damage_per_second"	"ПОСТОЯННЫЙ УРОН В СЕКУНДУ:"
+		"DOTA_Tooltip_ability_vampire_life_drain_damage_multiplier"	"МНОЖИТЕЛЬ ПУНКТОВ ЖАЖДЫ ДЛЯ УРОНА:"
+		"DOTA_Tooltip_ability_vampire_life_drain_duration"	"ДЛИТЕЛЬНОСТЬ:"
 
-		"DOTA_Tooltip_ability_naga_royal_guard_persistence"	"Стойкость"
-		"DOTA_Tooltip_ability_naga_royal_guard_persistence_Description"	"Гвардеец наращивает свою силу и защиту."
-		"DOTA_Tooltip_ability_naga_royal_guard_persistence_bonus_armor"	"+$armor"
-		"DOTA_Tooltip_ability_naga_royal_guard_persistence_bonus_strength"	"+$str"
+		"DOTA_Tooltip_modifier_vampire_life_drain"	"Высосать Жизнь"
 
-		"DOTA_Tooltip_ability_naga_royal_guard_bash"	"Сильный Удар"
-		"DOTA_Tooltip_ability_naga_royal_guard_bash_Description"	"У Наги-Гвардейца появляется шанс оглушить противника."
-		"DOTA_Tooltip_ability_naga_royal_guard_bash_bash_chance"	"%ШАНС ОГЛУШЕНИЯ:"
-		"DOTA_Tooltip_ability_naga_royal_guard_bash_stun_hero_duration"	"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+		"DOTA_Tooltip_ability_vampire_lifesteal"	"Вампиризм"
+		"DOTA_Tooltip_ability_vampire_lifesteal_Description"	"Вампир получает вампиризм и способность накапливать <font color='#ccc0605'>пункты жажды</font>. Герой получает 1 пункт жажды за убийство. Количество пунктов жажды ограничено. Вампир тратит все пункты жажды при произнесении заклинания.<br>Данный вампиризм не является уникальны модификатором атаки, однако он перекрывает вампиризм от Копья Аланита или Меча Крови."
+		"DOTA_Tooltip_ability_vampire_lifesteal_lifesteal_percentage"	"%ВАМПИРИЗМ:"
+		"DOTA_Tooltip_ability_vampire_lifesteal_thirst_points_max"	"ЛИМИТ ПУНКТОВ ЖАЖДЫ:"
 
-		"DOTA_Tooltip_ability_naga_royal_guard_crush"	"Давка"
-		"DOTA_Tooltip_ability_naga_royal_guard_crush_Description"	"Увеличивает скорость передвижения героя, и при этом Слинур давит всех близстоящих врагов, нанося им ежесекундный урон, который зависит от силы Наги-Гвардейца."
-		"DOTA_Tooltip_ability_naga_royal_guard_crush_damage_per_second"	"ПОСТОЯННЫЙ УРОН:"
-		"DOTA_Tooltip_ability_naga_royal_guard_crush_str_tooltip"	"%СИЛЫ В УРОН:"
-		"DOTA_Tooltip_ability_naga_royal_guard_crush_bonus_move_speed_percentage"	"%УВЕЛИЧЕНИЕ СКОРОСТИ ПЕРЕДВИЖЕНИЯ:"
-		"DOTA_Tooltip_ability_naga_royal_guard_crush_duration"	"ВРЕМЯ ДЕЙСТВИЯ:"
+		"DOTA_Tooltip_modifier_vampire_lifesteal"	"Вампиризм"
+		"DOTA_Tooltip_modifier_vampire_lifesteal_Description"	"Количество <font color='#ccc0605'>пунктов жажды</font>"
 
-		"DOTA_Tooltip_modifier_crush_bonus_movespeed"	"Давка"
-		"DOTA_Tooltip_modifier_crush_bonus_movespeed_Description"	"Нага-Гвардеец наносит урон рядомстоящим врагам. Также его скорость перемещения увеличена."
+		"DOTA_Tooltip_ability_vampire_thirst"	"Жажда"
+		"DOTA_Tooltip_ability_vampire_thirst_Description"	"Когда Вампир чувствует в радиусе 500 врага со здоровьем, ниже 30%%, он получает дополнительные скорость и <font color='#ccc0605'>пункты жажды</font>."
+		"DOTA_Tooltip_ability_vampire_thirst_thirst_points_bonus"	"ДОПОЛНИТЕЛЬНЫЕ ПУНКТЫ ЖАЖДЫ:"
+		"DOTA_Tooltip_ability_vampire_thirst_attack_speed_bonus"	"ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ АТАКИ:"
 
-		"DOTA_Tooltip_ability_valkyrie_rage"	"Гнев"
-		"DOTA_Tooltip_ability_valkyrie_rage_Description"	"Валькирия получает дополнительную ловкость и с каждым ударом всем вокруг себя наносит дополнительный урон.<br>Гнев — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки. "
-		"DOTA_Tooltip_ability_valkyrie_rage_bonus_damage"	"ДОПОЛНИТЕЛЬНЫЙ УРОН:"
-		"DOTA_Tooltip_ability_valkyrie_rage_bonus_agility"	"ДОПОЛНИТЕЛЬНАЯ ЛОВКОСТЬ:"		
+		"DOTA_Tooltip_modifier_vampire_thirst_bonus"	"Жажда"
+		"DOTA_Tooltip_modifier_vampire_thirst_bonus_Description"	"Скорость атаки Вампира увеличена."
 
-		"DOTA_Tooltip_modifier_valkyrie_rage"	"Гнев"
-		"DOTA_Tooltip_modifier_valkyrie_rage_Description"	"Валькирия наносит урон по площади и имеет повышенную ловкость."
+		"DOTA_Tooltip_ability_vampire_transformation"	"Превращение"
+		"DOTA_Tooltip_ability_vampire_transformation_Description"	"Вампир наносит урон врагам в раиусе 300 и превращается в летучую мышь с увеличенными здоровьем, скоростью атаки и перемещения и регенерацией. Вампир также начинает наносить урон по площади и лечиться при атаке. Начальный урон, регенерация, урон по площади и лечение зависят от <font color='#ccc0605'>пунктов жажды</font>."
+		"DOTA_Tooltip_ability_vampire_transformation_base_attack_time"		"БАЗОВАЯ ПЕРЕЗАРЯДКА АТАКИ:"
+		"DOTA_Tooltip_ability_vampire_transformation_bonus_movement_speed"	"ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ ПЕРЕМЕЩЕНИЯ:"
+		"DOTA_Tooltip_ability_vampire_transformation_bonus_range"			"ДОПОЛНИТЕЛЬНАЯ ДАЛЬНОСТЬ АТАКИ:"
+		"DOTA_Tooltip_ability_vampire_transformation_tp_regen_mult"			"МНОЖИТЕЛЬ ПУНКТОВ ЖАЖДЫ ДЛЯ РЕГЕНЕРАЦИИ:"
+		"DOTA_Tooltip_ability_vampire_transformation_tp_aoe_dmg_mult"		"МНОЖИТЕЛЬ ПУНКТОВ ЖАЖДЫ ДЛЯ АТАКИ ПО ПЛОЩАДИ:"
+		"DOTA_Tooltip_ability_vampire_transformation_tp_transformation_dmg_mult"	"МНОЖИТЕЛЬ ПУНКТОВ ЖАЖДЫ ДЛЯ НАЧАЛЬНОГО УРОНА:"
+		"DOTA_Tooltip_ability_vampire_transformation_tp_attack_heal_mult"			"МНОЖИТЕЛЬ ПУНКТОВ ЖАЖДЫ ДЛЯ ЛЕЧЕНИЯ:"
+		"DOTA_Tooltip_ability_vampire_transformation_bonus_health"			"ДОПОЛНИТЕЛЬНОЕ ЗДОРОВЬЕ:"
+		"DOTA_Tooltip_ability_vampire_transformation_duration"				"ДЛИТЕЛЬНОСТЬ:"
 
-		"DOTA_Tooltip_ability_valkyrie_true_hit"	"Меткий Удар"
-		"DOTA_Tooltip_ability_valkyrie_true_hit_Description"	"Меткий удар Валькирии наносит дополнительный урон всем врагам в радиусе 275 единиц от цели атаки в зависимости от их здоровья."
-		"DOTA_Tooltip_ability_valkyrie_true_hit_main_target_percent"	"%ЗДОРОВЬЯ В УРОН ЦЕЛИ АТАКИ:"
-		"DOTA_Tooltip_ability_valkyrie_true_hit_secondary_target_percent"	"%ЗДОРОВЬЯ В УРОН БЛИЗСТОЯЩИМ ВРАГАМ:"	
-
-		"DOTA_Tooltip_ability_valkyrie_agility"	"Ловкость"
-		"DOTA_Tooltip_ability_valkyrie_agility_Description"	"Повышение скорости боя Валькирии и всех дружественных юнитов в радиусе 700 единиц."
-		"DOTA_Tooltip_ability_valkyrie_agility_bonus_attack_speed"	"ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ АТАКИ:"
-
-		"DOTA_Tooltip_modifier_valkyrie_agility_buff"	"Ловкость"
-		"DOTA_Tooltip_modifier_valkyrie_agility_buff_Description"	"У этого юнита повышена скорость атаки."
-
-		"DOTA_Tooltip_ability_valkyrie_fury"	"Ярость"
-		"DOTA_Tooltip_ability_valkyrie_fury_Description"	"Указанный воин впадает в ярость, увеличивая свою скорость атаки."
-		"DOTA_Tooltip_ability_valkyrie_fury_bonus_attack_speed"	"ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ АТАКИ:"
-		"DOTA_Tooltip_ability_valkyrie_fury_duration"	"ДЛИТЕЛЬНОСТЬ:"	
-
-		"DOTA_Tooltip_modifier_valkyrie_fury_buff"	"Ярость"
-		"DOTA_Tooltip_modifier_valkyrie_fury_buff_Description"	"У этого юнита повышена скорость атаки."
-
-
-
-
-		"DOTA_Tooltip_ability_akron_explosion"	"Взрыв"
-		"DOTA_Tooltip_ability_akron_explosion_Description"	"Голем взрывается, нанося урон себе и врагам."
-		"DOTA_Tooltip_ability_akron_explosion_damage"	"УРОН:"		
+		"DOTA_Tooltip_modifier_vampire_transformation"	"Превращение"
 		
-		"DOTA_Tooltip_ability_akron_immolation"	"Жар Преисподней"
-		"DOTA_Tooltip_ability_akron_immolation_Description"	"Голем окутывается пламенем, наносящим всем врагам вокруг урон."
-		"DOTA_Tooltip_ability_akron_immolation_hellish_heat_tick_damage"	"УРОН В СЕКУНДУ:"			
+		//медуза(королева змей)
+				"DOTA_Tooltip_ability_serpent_queen_heavenly_power"	"Небесная Сила"
+		"DOTA_Tooltip_ability_serpent_queen_heavenly_power_Description"	"Королева Змей получает дополнительную ловкость на некоторое время."
+		"DOTA_Tooltip_ability_serpent_queen_heavenly_power_bonus_agility" "ДОПОЛНИТЕЛЬНАЯ ЛОВКОСТЬ:"
+		"DOTA_Tooltip_ability_serpent_queen_heavenly_power_duration" "ДЛИТЕЛЬНОСТЬ:"
+
+		"DOTA_Tooltip_modifier_serpent_queen_heavenly_power"	"Небесная Сила"
+		"DOTA_Tooltip_modifier_serpent_queen_heavenly_power_Description"	"У Королевы Змей увеличена ловкость."
+
+		"DOTA_Tooltip_ability_serpent_queen_accuracy"	"Меткость"
+		"DOTA_Tooltip_ability_serpent_queen_accuracy_Description"	"У Королевы Змей есть шанс кратковременно оглушить противника и нанести ему урон при атаке."
+		"DOTA_Tooltip_ability_serpent_queen_accuracy_bash_chance"	"%ШАНС ОГЛУШЕНИЯ:"
+		"DOTA_Tooltip_ability_serpent_queen_accuracy_stun_duration"	"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 		
-		"DOTA_Tooltip_ability_akron_firerage"	"Ярость Огня"
-		"DOTA_Tooltip_ability_akron_firerage_Description"	"Враги, атакуя голема, лишь копят в нем ярость. Выдержав 16 ударов, голем взрывается, нанося всем врагам вокруг урон."
-		"DOTA_Tooltip_ability_akron_firerage_damage"	"УРОН:"			
-
-		"DOTA_Tooltip_modifier_firerage_datadriven"	"Ярость Огня"
-		"DOTA_Tooltip_modifier_firerage_datadriven_Description"	"Выдержано ударов."
-
-		"DOTA_Tooltip_ability_akron_ground_slam"	"Удар по Земле"
-		"DOTA_Tooltip_ability_akron_ground_slam_Description"	"Мощный удар по земле, снижающий скорость перемещения и боя врагов и наносящий им урон."
-		"DOTA_Tooltip_ability_akron_ground_slam_Damage"	"УРОН:"		
-		"DOTA_Tooltip_ability_akron_ground_slam_slow_speed_attack_and_movement"	"%СНИЖЕНИЕ СКОРОСТИ ПЕРЕДВИЖЕНИЯ:"		
-		"DOTA_Tooltip_ability_akron_ground_slam_slow_tooltip"	"СНИЖЕНИЕ СКОРОСТИ АТАКИ:"		
-		"DOTA_Tooltip_ability_akron_ground_slam_duration"	"ДЛИТЕЛЬНОСТЬ:"				
-
-		"DOTA_Tooltip_modifier_eruption_datadriven"	"Удар по Земле"
-		"DOTA_Tooltip_modifier_eruption_datadriven_Description"	"Скорость перемещения и атаки этого юнита снижены."
-
-
-
-		"DOTA_Tooltip_ability_butcher_rage"	"Гнев"
-		"DOTA_Tooltip_ability_butcher_rage_Description"	"Разозлённый Мясник настолько сильно бьет, что задевает всех врагов, стоящих рядом с целью атаки, нанося им урон в зависимости от своего текущего здоровья.<br>Гнев — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки."
-		"DOTA_Tooltip_ability_butcher_rage_hp_damage_percentage"	"%ЗДОРОВЬЯ В УРОН:"			
-
-		"DOTA_Tooltip_modifier_butcher_rage"	"Гнев"
-		"DOTA_Tooltip_modifier_butcher_rage_Description"	"Мясник наносит урон по площади, зависящий от его здоровья."
-
-		"DOTA_Tooltip_ability_butcher_skin"	"Шкура"
-		"DOTA_Tooltip_ability_butcher_skin_Description"	"Мясник обрастает шкурой, при этом увеличивается защита, и противникам возвращается часть нанесённого урона."
-		"DOTA_Tooltip_ability_butcher_skin_bonus_armor"	"+$armor"		
-		"DOTA_Tooltip_ability_butcher_skin_damage_return"	"%ВОЗВРАТ УРОНА:"			
+		"DOTA_Tooltip_ability_serpent_queen_anger"	"Злоба"
+		"DOTA_Tooltip_ability_serpent_queen_anger_Description"	"Королева Змей дает дополнительный урон всем союзникам в радиусе 1000."
+		"DOTA_Tooltip_ability_serpent_queen_anger_bonus_damage"	"ДОПОЛНИТЕЛЬНЫЙ УРОН:"
+		"DOTA_Tooltip_ability_serpent_queen_anger_duration"	"ДЛИТЕЛЬНОСТЬ:"		
 		
-		"DOTA_Tooltip_ability_butcher_zombie"	"Зомби"
-		"DOTA_Tooltip_ability_butcher_zombie_Description"	"Каждые 15 секунд от мясника отпадает часть туши, которая оживает и воюет за хозяина."
-		"DOTA_Tooltip_ability_butcher_zombie_zombie_hp_tooltip"	"ЗДОРОВЬЕ ЗОМБИ:"		
-		"DOTA_Tooltip_ability_butcher_zombie_zombie_damage_tooltip"	"УРОН ЗОМБИ:"			
-
-		"DOTA_Tooltip_modifier_butcher_zombie"	"Зомби"
-		"DOTA_Tooltip_modifier_butcher_zombie_Description"	"Количество зомби."
-
-		"DOTA_Tooltip_ability_butcher_howl_of_terror"	"Леденящий Крик"
-		"DOTA_Tooltip_ability_butcher_howl_of_terror_Description"	"Противников, услышавших леденящий крик, охватывает ужас, и сила их атаки уменьшается."
-		"DOTA_Tooltip_ability_butcher_howl_of_terror_damage_penalty_percentage"	"%СНИЖЕНИЕ УРОНА:"		
-		"DOTA_Tooltip_ability_butcher_howl_of_terror_duration"	"ДЛИТЕЛЬНОСТЬ:"			
-
-		"DOTA_Tooltip_modifier_butcher_howl_of_terror"	"Леденящий Крик"
-		"DOTA_Tooltip_modifier_butcher_howl_of_terror_Description"	"Урон этого юнита снижен."
-
-		"DOTA_Tooltip_ability_araman_curse"	"Проклятие"
-		"DOTA_Tooltip_ability_araman_curse_Description"	"Араман концентрируется и произносит проклятие, которое наносит урон всем противникам около него. Также есть вероятность, что при произношении заклинания противники будут оглушены на 2 секунды. Суммарный урон от заклинания ограничен."
-		"DOTA_Tooltip_ability_araman_curse_damage"	"УРОН:"		
-		"DOTA_Tooltip_ability_araman_curse_stun_chance"	"%ШАНС ОГЛУШЕНИЯ:"			
-		"DOTA_Tooltip_ability_araman_curse_sum_damage"	"СУММАРНЫЙ УРОН:"			
+		"DOTA_Tooltip_modifier_serpent_queen_anger"	"Злоба"
+		"DOTA_Tooltip_modifier_serpent_queen_anger_Description"	"Урон этого юнита увеличен."	
+				"DOTA_Tooltip_ability_serpent_queen_ball_lightning"	"Шаровые Молнии"
+		"DOTA_Tooltip_ability_serpent_queen_ball_lightning_Description"	"Вокруг Королевы Змей появляются шаровые молнии, которые наносят урон врагам при прикосновении."
+		"DOTA_Tooltip_ability_serpent_queen_ball_lightning_locusts"	"КОЛИЧЕСТВО МОЛНИЙ:"
+		"DOTA_Tooltip_ability_serpent_queen_ball_lightning_locust_damage"	"DAMAGE:"
+		"DOTA_Tooltip_ability_serpent_queen_ball_lightning_duration"	"ДЛИТЕЛЬНОСТЬ:"		
 		
-		"DOTA_Tooltip_ability_araman_armor_of_darkness"	"Доспехи Тьмы"
-		"DOTA_Tooltip_ability_araman_armor_of_darkness_Description"	"Араман получает меньше урона. К тому же увеличивается защита."
-		"DOTA_Tooltip_ability_araman_armor_of_darkness_incoming_damage_percentage"	"%СНИЖЕНИЕ ПОЛУЧАЕМОГО УРОНА:"		
-		"DOTA_Tooltip_ability_araman_armor_of_darkness_bonus_armor"	"+$armor"		
+		"DOTA_Tooltip_modifier_locust_swarm"	"Шаровые Молнии"
+
+		//нага
+				"DOTA_Tooltip_ability_naga_siren_fury"	"Ярость"
+		"DOTA_Tooltip_ability_naga_siren_fury_Description"	"Нага наносит дополнительный физический урон в зависимости от суммы своих атрибутов. Также наносится некоторое постоянное значение в качестве урона."
+		"DOTA_Tooltip_ability_naga_siren_fury_stat_percentage"	"%АТРИБУТОВ В УРОН:"		
+		"DOTA_Tooltip_ability_naga_siren_fury_constant_damage"	"ПОСТОЯННЫЙ УРОН:"		
+		"DOTA_Tooltip_ability_naga_siren_fury_radius"	"ОБЛАСТЬ ВОЗДЕЙСТВИЯ:"			
+
+		"DOTA_Tooltip_modifier_naga_siren_fury"	"Ярость"
+		"DOTA_Tooltip_modifier_naga_siren_fury_Description"	"Нага-Сирена наносит урон по области, зависящий от ее атрибутов."
+
+		"DOTA_Tooltip_ability_naga_siren_eating"	"Поедание"
+		"DOTA_Tooltip_ability_naga_siren_eating_Description"	"Нага, убив своего врага, поедает его, исцеляется в зависимости от здоровья убитого противника. "
+		"DOTA_Tooltip_ability_naga_siren_eating_heal_percentage"	"%ЗДОРОВЬЕ В ЛЕЧЕНИЕ:"		
+
+		"DOTA_Tooltip_ability_naga_siren_art_of_battle"	"Искусство боя"
+		"DOTA_Tooltip_ability_naga_siren_art_of_battle_Description"	"Шанс уклониться от атаки противника и нанести дополнительный урон. "
+		"DOTA_Tooltip_ability_naga_siren_art_of_battle_evasion"	"%ШАНС УКЛОНИТЬСЯ:"		
+		"DOTA_Tooltip_ability_naga_siren_art_of_battle_crit_chance"	"%ШАНС КРИТИЧЕСКОГО УДАРА:"		
+		"DOTA_Tooltip_ability_naga_siren_art_of_battle_crit_mult"	"%КРИТИЧЕСКИЙ УРОН:"
+		"DOTA_Tooltip_ability_naga_siren_art_of_battle_Note0"	"Работает вместе с уворотом от предметов."	
 		
-		"DOTA_Tooltip_ability_araman_morale"	"Боевой Дух"
-		"DOTA_Tooltip_ability_araman_morale_Description"	"Увеличение урона дружественных войск."
-		"DOTA_Tooltip_ability_araman_morale_bonus_damage_percentage"	"%УВЕЛИЧЕНИЕ УРОНА:"			
-		
-		"DOTA_Tooltip_modifier_araman_morale_buff"	"Боевой Дух"
-		"DOTA_Tooltip_modifier_araman_morale_buff_Description"	"У данного юнита увеличена сила атаки."
+		"DOTA_Tooltip_ability_naga_siren_song"	"Песня"
+		"DOTA_Tooltip_ability_naga_siren_song_Description"	"Враги, находящиеся в радиусе 650 от Глины будут зачарованы пением Сирены. При атаке они будут все время промахиваться, не смогут произносить заклинания и будут неустанно идти на звуки песни."
+		"DOTA_Tooltip_ability_naga_siren_song_duration"	"ДЛИТЕЛЬНОСТЬ:"	
 
-		"DOTA_Tooltip_ability_araman_power_of_scourge"	"Сила Плети"
-		"DOTA_Tooltip_ability_araman_power_of_scourge_Description"	"Скорость перемещения и скорость боя увеличиваются. К тому же с каждым ударом Воин Плети наращивает 20 единиц силы атаки. Количество урона от этой способности ограничено."
-		"DOTA_Tooltip_ability_araman_power_of_scourge_bonus_attack_speed"	"ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ АТАКИ:"		
-		"DOTA_Tooltip_ability_araman_power_of_scourge_bonus_move_speed"	"%ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"						
-		"DOTA_Tooltip_ability_araman_power_of_scourge_sum_damage_tooltip"	"МАКСИМАЛЬНЫЙ СУММАРНЫЙ УРОН:"		
+		"DOTA_Tooltip_modifier_naga_siren_song"	"Песня"
+		"DOTA_Tooltip_modifier_naga_siren_song_Description"	"Этот воин атакует только Нагу-Сирену и промахивается при каждой атаке. Он также не может произносить заклинания."
 
-		"DOTA_Tooltip_modifier_araman_power_of_scourge"	"Сила Плети"
-		"DOTA_Tooltip_modifier_araman_power_of_scourge_Description"	"Сила атаки, полученная от этой способности."
-
-		"DOTA_Tooltip_ability_skeleton_mage_aqua_vitae"	"Живая Вода"
-		"DOTA_Tooltip_ability_skeleton_mage_aqua_vitae_Description"	"Скелет-Маг обливает указанных юнитов живой водой. Если юнит - союзник скелету, то его здоровье ежесекундно исцеляется. Если враг, то каждую секунду он получает урон."
-		"DOTA_Tooltip_ability_skeleton_mage_aqua_vitae_damage"	"УРОН:"		
-		"DOTA_Tooltip_ability_skeleton_mage_aqua_vitae_heal"	"ЛЕЧЕНИЕ:"						
-		"DOTA_Tooltip_ability_skeleton_mage_aqua_vitae_duration"	"ДЛИТЕЛЬНОСТЬ:"			
-
-		"DOTA_Tooltip_modifier_skeleton_mage_aqua_vitae_all"	"Живая Вода"
-
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic"	"Светлая Магия"
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_Description"	"Cкeлeт-Маг лeчит coюзникoв вoкpyг, a вpaги в этoй жe oблacти пoлyчaют ypoн. На третьем уровне урон и вылеченное здоровье зависят от максимального здоровья цели."
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_damage_constant"	"ПОСТОЯННЫЙ УРОН:"		
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_damage_percentage"	"%ЗДОРОВЬЯ В УРОН:"						
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_heal_constant"	"ПОСТОЯННОЕ ЛЕЧЕНИЕ:"		
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_heal_percentage"	"%ЗДОРОВЬЯ В ЛЕЧЕНИЕ:"				
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_Note0"	"Улучшается Сферическим Посохом. Увеличиваются урон и лечение."
-		
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter"	"Светлая Магия"
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter_Description"	"Cкeлeт-Маг лeчит coюзникoв вoкpyг, a вpaги в этoй жe oблacти пoлyчaют ypoн. На третьем уровне урон и вылеченное здоровье зависят от максимального здоровья цели."
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter_damage_constant"	"ПОСТОЯННЫЙ УРОН:"		
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter_damage_percentage"	"%ЗДОРОВЬЯ В УРОН:"						
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter_heal_constant"	"ПОСТОЯННОЕ ЛЕЧЕНИЕ:"		
-		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter_heal_percentage"	"%ЗДОРОВЬЯ В ЛЕЧЕНИЕ:"
-
-		"DOTA_Tooltip_ability_skeleton_mage_dark_magic"	"Тёмная Магия"
-		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_Description"	"Будучи атакованным, Скелет-Маг наносит урон своему обидчику."
-		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_damage_return"	"УРОН:"			
-		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_Note0"	"Улучшается Сферическим Посохом. Увеличивается урон."
-
-		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_scepter"	"Тёмная Магия"
-		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_scepter_Description"	"Будучи атакованным, Скелет-Маг наносит урон своему обидчику."
-		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_scepter_damage_return"	"УРОН:"	
-
-		"DOTA_Tooltip_ability_skeleton_mage_death_energy"	"Энергия Смерти"
-		"DOTA_Tooltip_ability_skeleton_mage_death_energy_Description"	"Скелет-Маг концентрируется 1 секунду и произносит самое сильное заклинание в своем арсенале. Заклинание мгновенно наносит оказавшимся рядом врагам урон. У задетых юнитов снижается скорость передвижения, и они каждую секунду теряют процент от своего здоровья."
-		"DOTA_Tooltip_ability_skeleton_mage_death_energy_damage_initial"	"НАЧАЛЬНЫЙ УРОН:"		
-		"DOTA_Tooltip_ability_skeleton_mage_death_energy_damage_percentage"	"%ЗДОРОВЬЯ В УРОН:"						
-		"DOTA_Tooltip_ability_skeleton_mage_death_energy_movement_speed_slow_percentage"	"%ЗАМЕДЛЕНИЕ СКОРОСТИ ПЕРЕДВИЖЕНИЯ:"		
-		"DOTA_Tooltip_ability_skeleton_mage_death_energy_duration"	"ДЛИТЕЛЬНОСТЬ:"			
-
-		"DOTA_Tooltip_modifier_skeleton_mage_death_energy_damage"	"Энергия Смерти"
-		"DOTA_Tooltip_modifier_skeleton_mage_death_energy_damage_Description"	"Этот юнит замедлен и получает урон."
-
-		"DOTA_Tooltip_ability_skeleton_thief_wind_walk"	"Стремительность"
-		"DOTA_Tooltip_ability_skeleton_thief_wind_walk_Description"	"Скелет-Вор становится невидимым на 8 секунд и начинает двигаться быстрее. При атаке он вновь становиться видимым и наносит дополнительный урон."
-		"DOTA_Tooltip_ability_skeleton_thief_wind_walk_bonus_movespeed"	"%ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"		
-		"DOTA_Tooltip_ability_skeleton_thief_wind_walk_bonus_damage"	"УРОН:"						
-				
-		"DOTA_Tooltip_ability_skeleton_thief_fury"	"Ярость"
-		"DOTA_Tooltip_ability_skeleton_thief_fury_Description"	"Скелет-Вор становиться неуязвимым, к тому же сильно увеличивается его скорость атаки."
-		"DOTA_Tooltip_ability_skeleton_thief_fury_bonus_attackspeed"	"%ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ АТАКИ:"		
-		"DOTA_Tooltip_ability_skeleton_thief_fury_duration"	"ДЛИТЕЛЬНОСТЬ:"			
-
-		"DOTA_Tooltip_modifier_skeleton_thief_fury"	"Ярость"
-		"DOTA_Tooltip_modifier_skeleton_thief_fury_Description"	"Этот воин неуязвим, и его скорость атаки увеличена."
-
-		"DOTA_Tooltip_ability_skeleton_thief_shield_of_death"	"Щит Смерти"
-		"DOTA_Tooltip_ability_skeleton_thief_shield_of_death_Description"	"Противнику, попытавшемуся атаковать Скелета-Вора, возвращается урон. Кроме того есть вероятность, что противник также получит еще урон. Урон возвращается только противникам ближнего боя."
-		"DOTA_Tooltip_ability_skeleton_thief_shield_of_death_damage_return"	"ПОСТОЯННЫЙ ВОЗВРАЩАЕМЫЙ УРОН:"		
-		"DOTA_Tooltip_ability_skeleton_thief_shield_of_death_additional_damage_return_chance"	"%ШАНС НА ДОПОЛНИТЕЛЬНЫЙ ВОЗВРАТ УРОНА:"						
-		"DOTA_Tooltip_ability_skeleton_thief_shield_of_death_additional_damage_return_amount"	"ДОПОЛНИТЕЛЬНЫЙ ВОЗВРАЩАЕМЫЙ УРОН:"		
-
-		"DOTA_Tooltip_ability_skeleton_thief_obsession"	"Одержимость"
-		"DOTA_Tooltip_ability_skeleton_thief_obsession_Description"	"Каждый пятый удар Скелет-Вор наносит своей жертве дополнительный физический урон."
-		"DOTA_Tooltip_ability_skeleton_thief_obsession_damage"	"ДОПОЛНИТЕЛЬНЫЙ УРОН:"			
-		
+		//невермор(сотканный из крови)
 		"DOTA_Tooltip_ability_vowen_from_blood_steal_blood"	"Похитить Кровь"
 		"DOTA_Tooltip_ability_vowen_from_blood_steal_blood_Description"	"Сотканный из Крови посылает магического червя, который забирает у врагов кровь, тем самым нанося им урон и восстанавливая своё здоровье. Урон снижается с каждой целью."
 		"DOTA_Tooltip_ability_vowen_from_blood_steal_blood_lightning_damage"	"УРОН:"		
@@ -1258,7 +1156,36 @@
 		"DOTA_Tooltip_modifier_vowen_from_blood_chaos"	"Хаос"
 		"DOTA_Tooltip_modifier_vowen_from_blood_chaos_Description"	"Урон этого юнита снижен."
 		
-		"DOTA_Tooltip_ability_warrior_of_light_fetters"	"Оковы Света"
+		//баланар(воин плети)
+				"DOTA_Tooltip_ability_araman_curse"	"Проклятие"
+		"DOTA_Tooltip_ability_araman_curse_Description"	"Араман концентрируется и произносит проклятие, которое наносит урон всем противникам около него. Также есть вероятность, что при произношении заклинания противники будут оглушены на 2 секунды. Суммарный урон от заклинания ограничен."
+		"DOTA_Tooltip_ability_araman_curse_damage"	"УРОН:"		
+		"DOTA_Tooltip_ability_araman_curse_stun_chance"	"%ШАНС ОГЛУШЕНИЯ:"			
+		"DOTA_Tooltip_ability_araman_curse_sum_damage"	"СУММАРНЫЙ УРОН:"			
+		
+		"DOTA_Tooltip_ability_araman_armor_of_darkness"	"Доспехи Тьмы"
+		"DOTA_Tooltip_ability_araman_armor_of_darkness_Description"	"Араман получает меньше урона. К тому же увеличивается защита."
+		"DOTA_Tooltip_ability_araman_armor_of_darkness_incoming_damage_percentage"	"%СНИЖЕНИЕ ПОЛУЧАЕМОГО УРОНА:"		
+		"DOTA_Tooltip_ability_araman_armor_of_darkness_bonus_armor"	"+$armor"		
+		
+		"DOTA_Tooltip_ability_araman_morale"	"Боевой Дух"
+		"DOTA_Tooltip_ability_araman_morale_Description"	"Увеличение урона дружественных войск."
+		"DOTA_Tooltip_ability_araman_morale_bonus_damage_percentage"	"%УВЕЛИЧЕНИЕ УРОНА:"			
+		
+		"DOTA_Tooltip_modifier_araman_morale_buff"	"Боевой Дух"
+		"DOTA_Tooltip_modifier_araman_morale_buff_Description"	"У данного юнита увеличена сила атаки."
+
+		"DOTA_Tooltip_ability_araman_power_of_scourge"	"Сила Плети"
+		"DOTA_Tooltip_ability_araman_power_of_scourge_Description"	"Скорость перемещения и скорость боя увеличиваются. К тому же с каждым ударом Воин Плети наращивает 20 единиц силы атаки. Количество урона от этой способности ограничено."
+		"DOTA_Tooltip_ability_araman_power_of_scourge_bonus_attack_speed"	"ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ АТАКИ:"		
+		"DOTA_Tooltip_ability_araman_power_of_scourge_bonus_move_speed"	"%ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"						
+		"DOTA_Tooltip_ability_araman_power_of_scourge_sum_damage_tooltip"	"МАКСИМАЛЬНЫЙ СУММАРНЫЙ УРОН:"		
+
+		"DOTA_Tooltip_modifier_araman_power_of_scourge"	"Сила Плети"
+		"DOTA_Tooltip_modifier_araman_power_of_scourge_Description"	"Сила атаки, полученная от этой способности."
+		
+		//омник(воин света)
+				"DOTA_Tooltip_ability_warrior_of_light_fetters"	"Оковы Света"
 		"DOTA_Tooltip_ability_warrior_of_light_fetters_Description"	"Воин Света связывает врагов оковами Света, замедляя их скорость перемещения. Каждый связанный, который попытается атаковать, получает урон."
 		"DOTA_Tooltip_ability_warrior_of_light_fetters_penalty_ms"	"%ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:"		
 		"DOTA_Tooltip_ability_warrior_of_light_fetters_damage_for_attack"	"УРОН ЗА АТАКУ:"						
@@ -1283,48 +1210,225 @@
 
 		"DOTA_Tooltip_modifier_divine_protection_datadriven"	"Божественная Защита"
 		"DOTA_Tooltip_modifier_divine_protection_datadriven_Description"	"Урон и броня этого воина увеличены."
-
-		"DOTA_Tooltip_ability_highlander_storm_bolt"	"Молот Бурь"
-		"DOTA_Tooltip_ability_highlander_storm_bolt_Description"	"Горец бросает магический молот, оглушающий указанного противникаи наносящий ему урон. Противники, находящиеся недалеко от цели, получают меньший урон и оглушение."
-		"DOTA_Tooltip_ability_highlander_storm_bolt_stun_main_target_duration"	"ОГЛУШЕНИЕ ОСНОВНОЙ ЦЕЛИ:"		
-		"DOTA_Tooltip_ability_highlander_storm_bolt_stun_radius_duration"	"ОГЛУШЕНИЕ ВТОРОСТЕПЕННЫХ ЦЕЛЕЙ:"						
-		"DOTA_Tooltip_ability_highlander_storm_bolt_damage_main_target_tooltip"	"УРОН ОСНОВНОЙ ЦЕЛИ:"		
-		"DOTA_Tooltip_ability_highlander_storm_bolt_damage_radius"	"УРОН ВТОРОСТЕПЕННЫМ ЦЕЛЯМ:"		
-		"DOTA_Tooltip_ability_highlander_storm_bolt_radius"	"РАДИУС:"			
 		
-		"DOTA_Tooltip_ability_highlander_heavy_axe"	"Тяжёлый Топор"
-		"DOTA_Tooltip_ability_highlander_heavy_axe_Description"	"У Горца повышается скорость перемещения. Также при каждой атаке он наносит дополнительный урон."
-		"DOTA_Tooltip_ability_highlander_heavy_axe_bonus_damage"	"ДОПОЛНИТЕЛЬНЫЙ УРОН:"		
-		"DOTA_Tooltip_ability_highlander_heavy_axe_bonus_movement_speed_percentage"	"%ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"						
-		"DOTA_Tooltip_ability_highlander_heavy_axe_duration"	"ДЛИТЕЛЬНОСТЬ:"			
+		//фантомка(валькирия)
+				"DOTA_Tooltip_ability_valkyrie_rage"	"Гнев"
+		"DOTA_Tooltip_ability_valkyrie_rage_Description"	"Валькирия получает дополнительную ловкость и с каждым ударом всем вокруг себя наносит дополнительный урон.<br>Гнев — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки. "
+		"DOTA_Tooltip_ability_valkyrie_rage_bonus_damage"	"ДОПОЛНИТЕЛЬНЫЙ УРОН:"
+		"DOTA_Tooltip_ability_valkyrie_rage_bonus_agility"	"ДОПОЛНИТЕЛЬНАЯ ЛОВКОСТЬ:"		
 
-		"DOTA_Tooltip_modifier_highlander_heavy_axe"	"Тяжёлый Топор"
-		"DOTA_Tooltip_modifier_highlander_heavy_axe_Description"	"Горец наносит дополнительный урон, и у него увеличена скорость пердвижения."
+		"DOTA_Tooltip_modifier_valkyrie_rage"	"Гнев"
+		"DOTA_Tooltip_modifier_valkyrie_rage_Description"	"Валькирия наносит урон по площади и имеет повышенную ловкость."
 
-		"DOTA_Tooltip_ability_highlander_improved_armor"	"Улучшенная Броня"
-		"DOTA_Tooltip_ability_highlander_improved_armor_Description"	"Отменное ремесло горцев позволяет носить более укреплённую броню. Будучи атакованным, Горец получает дополнительную защиту на некоторое время."
-		"DOTA_Tooltip_ability_highlander_improved_armor_bonus_armor"	"+$armor"		
-		"DOTA_Tooltip_ability_highlander_improved_armor_armor_per_attack"	"БРОНИ ЗА АТАКУ:"						
-		"DOTA_Tooltip_ability_highlander_improved_armor_duration"	"ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"			
-		"DOTA_Tooltip_ability_highlander_improved_armor_max_armor"	"МАКСИМУМ БРОНИ:"				
+		"DOTA_Tooltip_ability_valkyrie_true_hit"	"Меткий Удар"
+		"DOTA_Tooltip_ability_valkyrie_true_hit_Description"	"Меткий удар Валькирии наносит дополнительный урон всем врагам в радиусе 275 единиц от цели атаки в зависимости от их здоровья."
+		"DOTA_Tooltip_ability_valkyrie_true_hit_main_target_percent"	"%ЗДОРОВЬЯ В УРОН ЦЕЛИ АТАКИ:"
+		"DOTA_Tooltip_ability_valkyrie_true_hit_secondary_target_percent"	"%ЗДОРОВЬЯ В УРОН БЛИЗСТОЯЩИМ ВРАГАМ:"	
 
-		"DOTA_Tooltip_modifier_highlander_improved_armor"	"Улучшенная Броня"
-		"DOTA_Tooltip_modifier_highlander_improved_armor_Description"	"Броня, полученная от этой способности."
+		"DOTA_Tooltip_ability_valkyrie_agility"	"Ловкость"
+		"DOTA_Tooltip_ability_valkyrie_agility_Description"	"Повышение скорости боя Валькирии и всех дружественных юнитов в радиусе 700 единиц."
+		"DOTA_Tooltip_ability_valkyrie_agility_bonus_attack_speed"	"ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ АТАКИ:"
 
-		"DOTA_Tooltip_ability_highlander_might_of_the_highlander"	"Мощь Горца"
-		"DOTA_Tooltip_ability_highlander_might_of_the_highlander_Description"	"Все враги в указанной области теряют скорость перемещения секунд и получают магический урон."
-		"DOTA_Tooltip_ability_highlander_might_of_the_highlander_damage"	"УРОН:"		
-		"DOTA_Tooltip_ability_highlander_might_of_the_highlander_movement_speed_slow"	"%ЗАМЕДЛЕНИЕ ПЕРЕМЕЩЕНИЯ:"						
-		"DOTA_Tooltip_ability_highlander_might_of_the_highlander_duration"	"ДЛИТЕЛЬНОСТЬ:"			
-		"DOTA_Tooltip_ability_highlander_might_of_the_highlander_aoe_tooltip"	"ОБЛАСТЬ ВОЗДЕЙСТВИЯ:"
+		"DOTA_Tooltip_modifier_valkyrie_agility_buff"	"Ловкость"
+		"DOTA_Tooltip_modifier_valkyrie_agility_buff_Description"	"У этого юнита повышена скорость атаки."
 
-		"DOTA_Tooltip_modifier_highlander_might_of_the_highlander"	"Мощь Горца"
-		"DOTA_Tooltip_modifier_highlander_might_of_the_highlander_Description"	"Этот юнит замедлен."
+		"DOTA_Tooltip_ability_valkyrie_fury"	"Ярость"
+		"DOTA_Tooltip_ability_valkyrie_fury_Description"	"Указанный воин впадает в ярость, увеличивая свою скорость атаки."
+		"DOTA_Tooltip_ability_valkyrie_fury_bonus_attack_speed"	"ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ АТАКИ:"
+		"DOTA_Tooltip_ability_valkyrie_fury_duration"	"ДЛИТЕЛЬНОСТЬ:"	
+
+		"DOTA_Tooltip_modifier_valkyrie_fury_buff"	"Ярость"
+		"DOTA_Tooltip_modifier_valkyrie_fury_buff_Description"	"У этого юнита повышена скорость атаки."
+		
+		//пудж(мясник)
+				"DOTA_Tooltip_ability_butcher_rage"	"Гнев"
+		"DOTA_Tooltip_ability_butcher_rage_Description"	"Разозлённый Мясник настолько сильно бьет, что задевает всех врагов, стоящих рядом с целью атаки, нанося им урон в зависимости от своего текущего здоровья.<br>Гнев — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки."
+		"DOTA_Tooltip_ability_butcher_rage_hp_damage_percentage"	"%ЗДОРОВЬЯ В УРОН:"			
+
+		"DOTA_Tooltip_modifier_butcher_rage"	"Гнев"
+		"DOTA_Tooltip_modifier_butcher_rage_Description"	"Мясник наносит урон по площади, зависящий от его здоровья."
+
+		"DOTA_Tooltip_ability_butcher_skin"	"Шкура"
+		"DOTA_Tooltip_ability_butcher_skin_Description"	"Мясник обрастает шкурой, при этом увеличивается защита, и противникам возвращается часть нанесённого урона."
+		"DOTA_Tooltip_ability_butcher_skin_bonus_armor"	"+$armor"		
+		"DOTA_Tooltip_ability_butcher_skin_damage_return"	"%ВОЗВРАТ УРОНА:"			
+		
+		"DOTA_Tooltip_ability_butcher_zombie"	"Зомби"
+		"DOTA_Tooltip_ability_butcher_zombie_Description"	"Каждые 15 секунд от мясника отпадает часть туши, которая оживает и воюет за хозяина."
+		"DOTA_Tooltip_ability_butcher_zombie_zombie_hp_tooltip"	"ЗДОРОВЬЕ ЗОМБИ:"		
+		"DOTA_Tooltip_ability_butcher_zombie_zombie_damage_tooltip"	"УРОН ЗОМБИ:"			
+
+		"DOTA_Tooltip_modifier_butcher_zombie"	"Зомби"
+		"DOTA_Tooltip_modifier_butcher_zombie_Description"	"Количество зомби."
+
+		"DOTA_Tooltip_ability_butcher_howl_of_terror"	"Леденящий Крик"
+		"DOTA_Tooltip_ability_butcher_howl_of_terror_Description"	"Противников, услышавших леденящий крик, охватывает ужас, и сила их атаки уменьшается."
+		"DOTA_Tooltip_ability_butcher_howl_of_terror_damage_penalty_percentage"	"%СНИЖЕНИЕ УРОНА:"		
+		"DOTA_Tooltip_ability_butcher_howl_of_terror_duration"	"ДЛИТЕЛЬНОСТЬ:"			
+
+		"DOTA_Tooltip_modifier_butcher_howl_of_terror"	"Леденящий Крик"
+		"DOTA_Tooltip_modifier_butcher_howl_of_terror_Description"	"Урон этого юнита снижен."
 
 
-	
+		//пугна(скелет-маг)
+		"DOTA_Tooltip_ability_skeleton_mage_aqua_vitae"	"Живая Вода"
+		"DOTA_Tooltip_ability_skeleton_mage_aqua_vitae_Description"	"Скелет-Маг обливает указанных юнитов живой водой. Если юнит - союзник скелету, то его здоровье ежесекундно исцеляется. Если враг, то каждую секунду он получает урон."
+		"DOTA_Tooltip_ability_skeleton_mage_aqua_vitae_damage"	"УРОН:"		
+		"DOTA_Tooltip_ability_skeleton_mage_aqua_vitae_heal"	"ЛЕЧЕНИЕ:"						
+		"DOTA_Tooltip_ability_skeleton_mage_aqua_vitae_duration"	"ДЛИТЕЛЬНОСТЬ:"			
 
-		"DOTA_Tooltip_ability_kret_acid"	"Кислота"
+		"DOTA_Tooltip_modifier_skeleton_mage_aqua_vitae_all"	"Живая Вода"
+
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic"	"Светлая Магия"
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_Description"	"Cкeлeт-Маг лeчит coюзникoв вoкpyг, a вpaги в этoй жe oблacти пoлyчaют ypoн. На третьем уровне урон и вылеченное здоровье зависят от максимального здоровья цели."
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_damage_constant"	"ПОСТОЯННЫЙ УРОН:"		
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_damage_percentage"	"%ЗДОРОВЬЯ В УРОН:"						
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_heal_constant"	"ПОСТОЯННОЕ ЛЕЧЕНИЕ:"		
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_heal_percentage"	"%ЗДОРОВЬЯ В ЛЕЧЕНИЕ:"				
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_Note0"	"Улучшается Сферическим Посохом. Увеличиваются урон и лечение."
+		
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter"	"Светлая Магия"
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter_Description"	"Cкeлeт-Маг лeчит coюзникoв вoкpyг, a вpaги в этoй жe oблacти пoлyчaют ypoн. На третьем уровне урон и вылеченное здоровье зависят от максимального здоровья цели."
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter_damage_constant"	"ПОСТОЯННЫЙ УРОН:"		
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter_damage_percentage"	"%ЗДОРОВЬЯ В УРОН:"						
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter_heal_constant"	"ПОСТОЯННОЕ ЛЕЧЕНИЕ:"		
+		"DOTA_Tooltip_ability_skeleton_mage_light_magic_scepter_heal_percentage"	"%ЗДОРОВЬЯ В ЛЕЧЕНИЕ:"
+
+		"DOTA_Tooltip_ability_skeleton_mage_dark_magic"	"Тёмная Магия"
+		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_Description"	"Будучи атакованным, Скелет-Маг наносит урон своему обидчику."
+		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_damage_return"	"УРОН:"			
+		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_Note0"	"Улучшается Сферическим Посохом. Увеличивается урон."
+
+		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_scepter"	"Тёмная Магия"
+		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_scepter_Description"	"Будучи атакованным, Скелет-Маг наносит урон своему обидчику."
+		"DOTA_Tooltip_ability_skeleton_mage_dark_magic_scepter_damage_return"	"УРОН:"	
+
+		"DOTA_Tooltip_ability_skeleton_mage_death_energy"	"Энергия Смерти"
+		"DOTA_Tooltip_ability_skeleton_mage_death_energy_Description"	"Скелет-Маг концентрируется 1 секунду и произносит самое сильное заклинание в своем арсенале. Заклинание мгновенно наносит оказавшимся рядом врагам урон. У задетых юнитов снижается скорость передвижения, и они каждую секунду теряют процент от своего здоровья."
+		"DOTA_Tooltip_ability_skeleton_mage_death_energy_damage_initial"	"НАЧАЛЬНЫЙ УРОН:"		
+		"DOTA_Tooltip_ability_skeleton_mage_death_energy_damage_percentage"	"%ЗДОРОВЬЯ В УРОН:"						
+		"DOTA_Tooltip_ability_skeleton_mage_death_energy_movement_speed_slow_percentage"	"%ЗАМЕДЛЕНИЕ СКОРОСТИ ПЕРЕДВИЖЕНИЯ:"		
+		"DOTA_Tooltip_ability_skeleton_mage_death_energy_duration"	"ДЛИТЕЛЬНОСТЬ:"			
+
+		"DOTA_Tooltip_modifier_skeleton_mage_death_energy_damage"	"Энергия Смерти"
+		"DOTA_Tooltip_modifier_skeleton_mage_death_energy_damage_Description"	"Этот юнит замедлен и получает урон."
+
+		//шш(знахарь)
+				"DOTA_Tooltip_ability_witch_doctor_negative_energy"	"Негативная Энергия"
+		"DOTA_Tooltip_ability_witch_doctor_negative_energy_Description"	"Поток негативной энергии, наносящий всем, стоящим на его пути, урон."
+		"DOTA_Tooltip_ability_witch_doctor_negative_energy_damage"	"УРОН:"
+		"DOTA_Tooltip_ability_witch_doctor_negative_energy_Note0"	"Улучшается Сферическим Посохом. Увеличевается урон."
+
+		"DOTA_Tooltip_ability_witch_doctor_negative_energy_scepter"	"Негативная Энергия"
+		"DOTA_Tooltip_ability_witch_doctor_negative_energy_scepter_Description"	"Поток негативной энергии, наносящий всем, стоящим на его пути, урон."
+		"DOTA_Tooltip_ability_witch_doctor_negative_energy_scepter_damage"	"УРОН:"
+
+		"DOTA_Tooltip_ability_witch_doctor_frost_armor"	"Ледяная Броня"
+		"DOTA_Tooltip_ability_witch_doctor_frost_armor_Description"	"Заклинание окружает указанного воина ледяной броней, повышающей его защиту и сковывающей движения противника ближнего боя, атакующего этого воина. Замедляет передвижение на 40% и атаку на 25 единиц на 5 секунд."
+		"DOTA_Tooltip_ability_witch_doctor_frost_armor_armor_bonus"	"ДОПОЛНИТЕЛЬНАЯ БРОНЯ:"
+		"DOTA_Tooltip_ability_witch_doctor_frost_armor_duration"	"ДЛИТЕЛЬНОСТЬ:"
+		"DOTA_Tooltip_ability_witch_doctor_frost_armor_Note0"	"Улучшается Сферическим Посохом. Увеличевает броню и длительность."
+
+		"DOTA_Tooltip_ability_witch_doctor_frost_armor_scepter"	"Ледяная Броня"
+		"DOTA_Tooltip_ability_witch_doctor_frost_armor_scepter_Description"	"Заклинание окружает указанного воина ледяной броней, повышающей его защиту и сковывающей движения противника ближнего боя, атакующего этого воина. Замедляет передвижение на 40% и атаку на 25 единиц на 5 секунд."
+		"DOTA_Tooltip_ability_witch_doctor_frost_armor_scepter_armor_bonus"	"ДОПОЛНИТЕЛЬНАЯ БРОНЯ:"
+		"DOTA_Tooltip_ability_witch_doctor_frost_armor_scepter_duration"	"ДЛИТЕЛЬНОСТЬ:"
+
+		"DOTA_Tooltip_modifier_frost_armor_slow"	"Ледяная Броня"
+		"DOTA_Tooltip_modifier_frost_armor_slow_Description"	"Этот воин замедлен."
+
+		"DOTA_Tooltip_modifier_frost_armor"	"Ледяная Броня"
+		"DOTA_Tooltip_modifier_frost_armor_Description"	"У этого воина повышена защита, и он может замедлять врагов ближнего боя, которые его атакуют."	
+
+		"DOTA_Tooltip_ability_witch_doctor_discharge"	"Разряд"
+		"DOTA_Tooltip_ability_witch_doctor_discharge_Description"	"Все враги в радиусе 300 единиц получают урон и отталкиваются назад. Союзники в этом же радиусе восполняют своё здоровье."
+		"DOTA_Tooltip_ability_witch_doctor_discharge_damage"	"УРОН:"
+		"DOTA_Tooltip_ability_witch_doctor_discharge_heal"	"ЛЕЧЕНИЕ:"
+		"DOTA_Tooltip_ability_witch_doctor_discharge_distance"	"ДАЛЬНОСТЬ ОТТАЛКИВАНИЯ:"
+		"DOTA_Tooltip_ability_witch_doctor_discharge_air_time"	"ДЛИТЕЛЬНОСТЬ ОТТАЛКИВАНИЯ:"		
+
+		"DOTA_Tooltip_ability_witch_doctor_regeneration"	"Регенерация"
+		"DOTA_Tooltip_ability_witch_doctor_regeneration_Description"	"Знахарь полностью восполняет здоровье и ману всех своих союзников."
+
+		//тимбер(андроид)
+				"DOTA_Tooltip_ability_android_war_stomp"	"Громовая Поступь"
+		"DOTA_Tooltip_ability_android_war_stomp_Description"	"Мощный удар сотрясает землю, оглушая противников в радиусе 500 единиц и нанося им урон."
+		"DOTA_Tooltip_ability_android_war_stomp_damage"	"УРОН:"
+		"DOTA_Tooltip_ability_android_war_stomp_stun_duration"	"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"	
+
+		"DOTA_Tooltip_ability_android_pocket_factory"	"Мини-Завод"
+		"DOTA_Tooltip_ability_android_pocket_factory_Description"	"Герой строит небольшой завод, автоматически выпускающий заводных гоблинов каждые две секунды."
+		"DOTA_Tooltip_ability_android_pocket_factory_factory_duration"	"ВРЕМЯ ЖИЗНИ ЗАВОДА:"
+		"DOTA_Tooltip_ability_android_pocket_factory_goblin_hp"	"ЗДОРОВЬЕ ГОБЛИНОВ:"
+		"DOTA_Tooltip_ability_android_pocket_factory_goblin_damage"	"УРОН ГОБЛИНОВ:"
+
+		"DOTA_Tooltip_ability_android_clockwerk_goblin_kaboom"	"Взорвать"
+		"DOTA_Tooltip_ability_android_clockwerk_goblin_kaboom_Description"	"Гоблин взрывается, нанося урон ближайшим противникам."
+
+		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin1"	"Сильный удар"
+		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin1_Description"	"Дает небольшой шанс оглушить противника на полсекунды."
+
+		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin2"	"Сильный удар"
+		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin2_Description"	"Дает небольшой шанс оглушить противника на полсекунды."
+
+		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin3"	"Сильный удар"
+		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin3_Description"	"Дает небольшой шанс оглушить противника на полсекунды."
+
+		"DOTA_Tooltip_ability_android_armor"	"Броня"
+		"DOTA_Tooltip_ability_android_armor_Description"	"Блокирует некоторый урон, нанесенный Андроиду."
+		"DOTA_Tooltip_ability_android_armor_damage_blocked"	"БЛОКИРУЕМЫЙ УРОН:"
+
+		"DOTA_Tooltip_ability_android_cluster_rockets"	"Ракетный Удар"
+		"DOTA_Tooltip_ability_android_cluster_rockets_Description"	"Пуск ракет по указанной области. Ракеты наносят урон всем наземным противникам, оказавшимся поблизости, и оглушают их на 1 секунду."
+		"DOTA_Tooltip_ability_android_cluster_rockets_damage"	"УРОН ОДНОЙ РАКЕТЫ:"
+		"DOTA_Tooltip_ability_android_cluster_rockets_projectile_count"	"КОЛИЧЕСТВО РАКЕТ:"
+		
+		//леорик(король-вор)
+				"DOTA_Tooltip_ability_skeleton_thief_wind_walk"	"Стремительность"
+		"DOTA_Tooltip_ability_skeleton_thief_wind_walk_Description"	"Скелет-Вор становится невидимым на 8 секунд и начинает двигаться быстрее. При атаке он вновь становиться видимым и наносит дополнительный урон."
+		"DOTA_Tooltip_ability_skeleton_thief_wind_walk_bonus_movespeed"	"%ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"		
+		"DOTA_Tooltip_ability_skeleton_thief_wind_walk_bonus_damage"	"УРОН:"						
+				
+		"DOTA_Tooltip_ability_skeleton_thief_fury"	"Ярость"
+		"DOTA_Tooltip_ability_skeleton_thief_fury_Description"	"Скелет-Вор становиться неуязвимым, к тому же сильно увеличивается его скорость атаки."
+		"DOTA_Tooltip_ability_skeleton_thief_fury_bonus_attackspeed"	"%ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ АТАКИ:"		
+		"DOTA_Tooltip_ability_skeleton_thief_fury_duration"	"ДЛИТЕЛЬНОСТЬ:"			
+
+		"DOTA_Tooltip_modifier_skeleton_thief_fury"	"Ярость"
+		"DOTA_Tooltip_modifier_skeleton_thief_fury_Description"	"Этот воин неуязвим, и его скорость атаки увеличена."
+
+		"DOTA_Tooltip_ability_skeleton_thief_shield_of_death"	"Щит Смерти"
+		"DOTA_Tooltip_ability_skeleton_thief_shield_of_death_Description"	"Противнику, попытавшемуся атаковать Скелета-Вора, возвращается урон. Кроме того есть вероятность, что противник также получит еще урон. Урон возвращается только противникам ближнего боя."
+		"DOTA_Tooltip_ability_skeleton_thief_shield_of_death_damage_return"	"ПОСТОЯННЫЙ ВОЗВРАЩАЕМЫЙ УРОН:"		
+		"DOTA_Tooltip_ability_skeleton_thief_shield_of_death_additional_damage_return_chance"	"%ШАНС НА ДОПОЛНИТЕЛЬНЫЙ ВОЗВРАТ УРОНА:"						
+		"DOTA_Tooltip_ability_skeleton_thief_shield_of_death_additional_damage_return_amount"	"ДОПОЛНИТЕЛЬНЫЙ ВОЗВРАЩАЕМЫЙ УРОН:"		
+
+		"DOTA_Tooltip_ability_skeleton_thief_obsession"	"Одержимость"
+		"DOTA_Tooltip_ability_skeleton_thief_obsession_Description"	"Каждый пятый удар Скелет-Вор наносит своей жертве дополнительный физический урон."
+		"DOTA_Tooltip_ability_skeleton_thief_obsession_damage"	"ДОПОЛНИТЕЛЬНЫЙ УРОН:"	
+		
+		//слардар(НРГ)
+		"DOTA_Tooltip_ability_naga_royal_guard_persistence"	"Стойкость"
+		"DOTA_Tooltip_ability_naga_royal_guard_persistence_Description"	"Гвардеец наращивает свою силу и защиту."
+		"DOTA_Tooltip_ability_naga_royal_guard_persistence_bonus_armor"	"+$armor"
+		"DOTA_Tooltip_ability_naga_royal_guard_persistence_bonus_strength"	"+$str"
+
+		"DOTA_Tooltip_ability_naga_royal_guard_bash"	"Сильный Удар"
+		"DOTA_Tooltip_ability_naga_royal_guard_bash_Description"	"У Наги-Гвардейца появляется шанс оглушить противника."
+		"DOTA_Tooltip_ability_naga_royal_guard_bash_bash_chance"	"%ШАНС ОГЛУШЕНИЯ:"
+		"DOTA_Tooltip_ability_naga_royal_guard_bash_stun_hero_duration"	"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+
+		"DOTA_Tooltip_ability_naga_royal_guard_crush"	"Давка"
+		"DOTA_Tooltip_ability_naga_royal_guard_crush_Description"	"Увеличивает скорость передвижения героя, и при этом Слинур давит всех близстоящих врагов, нанося им ежесекундный урон, который зависит от силы Наги-Гвардейца."
+		"DOTA_Tooltip_ability_naga_royal_guard_crush_damage_per_second"	"ПОСТОЯННЫЙ УРОН:"
+		"DOTA_Tooltip_ability_naga_royal_guard_crush_str_tooltip"	"%СИЛЫ В УРОН:"
+		"DOTA_Tooltip_ability_naga_royal_guard_crush_bonus_move_speed_percentage"	"%УВЕЛИЧЕНИЕ СКОРОСТИ ПЕРЕДВИЖЕНИЯ:"
+		"DOTA_Tooltip_ability_naga_royal_guard_crush_duration"	"ВРЕМЯ ДЕЙСТВИЯ:"
+		"DOTA_Tooltip_modifier_crush_bonus_movespeed"	"Давка"
+		"DOTA_Tooltip_modifier_crush_bonus_movespeed_Description"	"Нага-Гвардеец наносит урон рядомстоящим врагам. Также его скорость перемещения увеличена."
+
+		//сларк(морлок)
+				"DOTA_Tooltip_ability_kret_acid"	"Кислота"
 		"DOTA_Tooltip_ability_kret_acid_Description"	"Крет отравляет указанного противника. При этом защита и скорость передвижения цели снижается, а ее запас здоровья уменьшается со временем. Противникам, находящимся рядом с целью, наносится немного меньший урон."
 		"DOTA_Tooltip_ability_kret_acid_reduce_armor"	"СНИЖЕНИЕ БРОНИ:"		
 		"DOTA_Tooltip_ability_kret_acid_main_damage"	"УРОН ОСНОВНОЙ ЦЕЛИ:"	
@@ -1361,35 +1465,9 @@
 
 		"DOTA_Tooltip_modifier_kret_virus_other_target"	"Яд"
 		"DOTA_Tooltip_modifier_kret_virus_other_target_Description"	"Этот воин получает урон."
-
-		"DOTA_Tooltip_ability_naga_siren_fury"	"Ярость"
-		"DOTA_Tooltip_ability_naga_siren_fury_Description"	"Нага наносит дополнительный физический урон в зависимости от суммы своих атрибутов. Также наносится некоторое постоянное значение в качестве урона."
-		"DOTA_Tooltip_ability_naga_siren_fury_stat_percentage"	"%АТРИБУТОВ В УРОН:"		
-		"DOTA_Tooltip_ability_naga_siren_fury_constant_damage"	"ПОСТОЯННЫЙ УРОН:"		
-		"DOTA_Tooltip_ability_naga_siren_fury_radius"	"ОБЛАСТЬ ВОЗДЕЙСТВИЯ:"			
-
-		"DOTA_Tooltip_modifier_naga_siren_fury"	"Ярость"
-		"DOTA_Tooltip_modifier_naga_siren_fury_Description"	"Нага-Сирена наносит урон по области, зависящий от ее атрибутов."
-
-		"DOTA_Tooltip_ability_naga_siren_eating"	"Поедание"
-		"DOTA_Tooltip_ability_naga_siren_eating_Description"	"Нага, убив своего врага, поедает его, исцеляется в зависимости от здоровья убитого противника. "
-		"DOTA_Tooltip_ability_naga_siren_eating_heal_percentage"	"%ЗДОРОВЬЕ В ЛЕЧЕНИЕ:"		
-
-		"DOTA_Tooltip_ability_naga_siren_art_of_battle"	"Искусство боя"
-		"DOTA_Tooltip_ability_naga_siren_art_of_battle_Description"	"Шанс уклониться от атаки противника и нанести дополнительный урон. "
-		"DOTA_Tooltip_ability_naga_siren_art_of_battle_evasion"	"%ШАНС УКЛОНИТЬСЯ:"		
-		"DOTA_Tooltip_ability_naga_siren_art_of_battle_crit_chance"	"%ШАНС КРИТИЧЕСКОГО УДАРА:"		
-		"DOTA_Tooltip_ability_naga_siren_art_of_battle_crit_mult"	"%КРИТИЧЕСКИЙ УРОН:"
-		"DOTA_Tooltip_ability_naga_siren_art_of_battle_Note0"	"Работает вместе с уворотом от предметов."	
 		
-		"DOTA_Tooltip_ability_naga_siren_song"	"Песня"
-		"DOTA_Tooltip_ability_naga_siren_song_Description"	"Враги, находящиеся в радиусе 650 от Глины будут зачарованы пением Сирены. При атаке они будут все время промахиваться, не смогут произносить заклинания и будут неустанно идти на звуки песни."
-		"DOTA_Tooltip_ability_naga_siren_song_duration"	"ДЛИТЕЛЬНОСТЬ:"	
-
-		"DOTA_Tooltip_modifier_naga_siren_song"	"Песня"
-		"DOTA_Tooltip_modifier_naga_siren_song_Description"	"Этот воин атакует только Нагу-Сирену и промахивается при каждой атаке. Он также не может произносить заклинания."
-
-		"DOTA_Tooltip_ability_time_lord_death"	"Смерть"
+		//баратрум(повелитель времени)
+				"DOTA_Tooltip_ability_time_lord_death"	"Смерть"
 		"DOTA_Tooltip_ability_time_lord_death_Description"	"Повелитель Времени заставляет врагов мгновенно стареть, после чего они умирают."
 		"DOTA_Tooltip_ability_time_lord_death_radius"	"РАДИУС:"	
 		"DOTA_Tooltip_ability_time_lord_death_Note0"	"Улучшается Сферическим Посохом. Снижается перезарядка."
@@ -1427,9 +1505,72 @@
 
 		"DOTA_Tooltip_modifier_time_lock_bonus"	"Остановить Время"
 		"DOTA_Tooltip_modifier_time_lock_bonus_Description"	"Скорость Повелителя Времени увеличена."
+		
+		//тини(голем)
+		"DOTA_Tooltip_ability_akron_explosion"	"Взрыв"
+		"DOTA_Tooltip_ability_akron_explosion_Description"	"Голем взрывается, нанося урон себе и врагам."
+		"DOTA_Tooltip_ability_akron_explosion_damage"	"УРОН:"		
+		
+		"DOTA_Tooltip_ability_akron_immolation"	"Жар Преисподней"
+		"DOTA_Tooltip_ability_akron_immolation_Description"	"Голем окутывается пламенем, наносящим всем врагам вокруг урон."
+		"DOTA_Tooltip_ability_akron_immolation_hellish_heat_tick_damage"	"УРОН В СЕКУНДУ:"			
+		
+		"DOTA_Tooltip_ability_akron_firerage"	"Ярость Огня"
+		"DOTA_Tooltip_ability_akron_firerage_Description"	"Враги, атакуя голема, лишь копят в нем ярость. Выдержав 16 ударов, голем взрывается, нанося всем врагам вокруг урон."
+		"DOTA_Tooltip_ability_akron_firerage_damage"	"УРОН:"			
 
+		"DOTA_Tooltip_modifier_firerage_datadriven"	"Ярость Огня"
+		"DOTA_Tooltip_modifier_firerage_datadriven_Description"	"Выдержано ударов."
 
+		"DOTA_Tooltip_ability_akron_ground_slam"	"Удар по Земле"
+		"DOTA_Tooltip_ability_akron_ground_slam_Description"	"Мощный удар по земле, снижающий скорость перемещения и боя врагов и наносящий им урон."
+		"DOTA_Tooltip_ability_akron_ground_slam_Damage"	"УРОН:"		
+		"DOTA_Tooltip_ability_akron_ground_slam_slow_speed_attack_and_movement"	"%СНИЖЕНИЕ СКОРОСТИ ПЕРЕДВИЖЕНИЯ:"		
+		"DOTA_Tooltip_ability_akron_ground_slam_slow_tooltip"	"СНИЖЕНИЕ СКОРОСТИ АТАКИ:"		
+		"DOTA_Tooltip_ability_akron_ground_slam_duration"	"ДЛИТЕЛЬНОСТЬ:"				
 
+		"DOTA_Tooltip_modifier_eruption_datadriven"	"Удар по Земле"
+		"DOTA_Tooltip_modifier_eruption_datadriven_Description"	"Скорость перемещения и атаки этого юнита снижены."
+
+		//тускарр(горец)
+		"DOTA_Tooltip_ability_highlander_storm_bolt"	"Молот Бурь"
+		"DOTA_Tooltip_ability_highlander_storm_bolt_Description"	"Горец бросает магический молот, оглушающий указанного противникаи наносящий ему урон. Противники, находящиеся недалеко от цели, получают меньший урон и оглушение."
+		"DOTA_Tooltip_ability_highlander_storm_bolt_stun_main_target_duration"	"ОГЛУШЕНИЕ ОСНОВНОЙ ЦЕЛИ:"		
+		"DOTA_Tooltip_ability_highlander_storm_bolt_stun_radius_duration"	"ОГЛУШЕНИЕ ВТОРОСТЕПЕННЫХ ЦЕЛЕЙ:"						
+		"DOTA_Tooltip_ability_highlander_storm_bolt_damage_main_target_tooltip"	"УРОН ОСНОВНОЙ ЦЕЛИ:"		
+		"DOTA_Tooltip_ability_highlander_storm_bolt_damage_radius"	"УРОН ВТОРОСТЕПЕННЫМ ЦЕЛЯМ:"		
+		"DOTA_Tooltip_ability_highlander_storm_bolt_radius"	"РАДИУС:"			
+		
+		"DOTA_Tooltip_ability_highlander_heavy_axe"	"Тяжёлый Топор"
+		"DOTA_Tooltip_ability_highlander_heavy_axe_Description"	"У Горца повышается скорость перемещения. Также при каждой атаке он наносит дополнительный урон."
+		"DOTA_Tooltip_ability_highlander_heavy_axe_bonus_damage"	"ДОПОЛНИТЕЛЬНЫЙ УРОН:"		
+		"DOTA_Tooltip_ability_highlander_heavy_axe_bonus_movement_speed_percentage"	"%ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"						
+		"DOTA_Tooltip_ability_highlander_heavy_axe_duration"	"ДЛИТЕЛЬНОСТЬ:"			
+
+		"DOTA_Tooltip_modifier_highlander_heavy_axe"	"Тяжёлый Топор"
+		"DOTA_Tooltip_modifier_highlander_heavy_axe_Description"	"Горец наносит дополнительный урон, и у него увеличена скорость пердвижения."
+
+		"DOTA_Tooltip_ability_highlander_improved_armor"	"Улучшенная Броня"
+		"DOTA_Tooltip_ability_highlander_improved_armor_Description"	"Отменное ремесло горцев позволяет носить более укреплённую броню. Будучи атакованным, Горец получает дополнительную защиту на некоторое время."
+		"DOTA_Tooltip_ability_highlander_improved_armor_bonus_armor"	"+$armor"		
+		"DOTA_Tooltip_ability_highlander_improved_armor_armor_per_attack"	"БРОНИ ЗА АТАКУ:"						
+		"DOTA_Tooltip_ability_highlander_improved_armor_duration"	"ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"			
+		"DOTA_Tooltip_ability_highlander_improved_armor_max_armor"	"МАКСИМУМ БРОНИ:"				
+
+		"DOTA_Tooltip_modifier_highlander_improved_armor"	"Улучшенная Броня"
+		"DOTA_Tooltip_modifier_highlander_improved_armor_Description"	"Броня, полученная от этой способности."
+
+		"DOTA_Tooltip_ability_highlander_might_of_the_highlander"	"Мощь Горца"
+		"DOTA_Tooltip_ability_highlander_might_of_the_highlander_Description"	"Все враги в указанной области теряют скорость перемещения секунд и получают магический урон."
+		"DOTA_Tooltip_ability_highlander_might_of_the_highlander_damage"	"УРОН:"		
+		"DOTA_Tooltip_ability_highlander_might_of_the_highlander_movement_speed_slow"	"%ЗАМЕДЛЕНИЕ ПЕРЕМЕЩЕНИЯ:"						
+		"DOTA_Tooltip_ability_highlander_might_of_the_highlander_duration"	"ДЛИТЕЛЬНОСТЬ:"			
+		"DOTA_Tooltip_ability_highlander_might_of_the_highlander_aoe_tooltip"	"ОБЛАСТЬ ВОЗДЕЙСТВИЯ:"
+
+		"DOTA_Tooltip_modifier_highlander_might_of_the_highlander"	"Мощь Горца"
+		"DOTA_Tooltip_modifier_highlander_might_of_the_highlander_Description"	"Этот юнит замедлен."
+
+		//варлок(повелитель земли)
 		"DOTA_Tooltip_ability_earth_lord_earth_burn"	"Раскаленная Земля"
 		"DOTA_Tooltip_ability_earth_lord_earth_burn_Description"	"Повелитель Земли поджигает землю в выбранной области на 4 секунды, нанося урон врагам, которые в ней окажутся."
 		"DOTA_Tooltip_ability_earth_lord_earth_burn_damage"	"УРОН В СЕКУНДУ:"
@@ -1477,104 +1618,21 @@
 		"DOTA_Tooltip_modifier_earth_lord_might_of_the_earth"	"Мощь Земли"
 		"DOTA_Tooltip_modifier_earth_lord_might_of_the_earth_Description"	"Броня этого воина снижена."
 
-		"DOTA_Tooltip_ability_android_war_stomp"	"Громовая Поступь"
-		"DOTA_Tooltip_ability_android_war_stomp_Description"	"Мощный удар сотрясает землю, оглушая противников в радиусе 500 единиц и нанося им урон."
-		"DOTA_Tooltip_ability_android_war_stomp_damage"	"УРОН:"
-		"DOTA_Tooltip_ability_android_war_stomp_stun_duration"	"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"	
-
-		"DOTA_Tooltip_ability_android_pocket_factory"	"Мини-Завод"
-		"DOTA_Tooltip_ability_android_pocket_factory_Description"	"Герой строит небольшой завод, автоматически выпускающий заводных гоблинов каждые две секунды."
-		"DOTA_Tooltip_ability_android_pocket_factory_factory_duration"	"ВРЕМЯ ЖИЗНИ ЗАВОДА:"
-		"DOTA_Tooltip_ability_android_pocket_factory_goblin_hp"	"ЗДОРОВЬЕ ГОБЛИНОВ:"
-		"DOTA_Tooltip_ability_android_pocket_factory_goblin_damage"	"УРОН ГОБЛИНОВ:"
-
-		"DOTA_Tooltip_ability_android_clockwerk_goblin_kaboom"	"Взорвать"
-		"DOTA_Tooltip_ability_android_clockwerk_goblin_kaboom_Description"	"Гоблин взрывается, нанося урон ближайшим противникам."
-
-		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin1"	"Сильный удар"
-		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin1_Description"	"Дает небольшой шанс оглушить противника на полсекунды."
-
-		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin2"	"Сильный удар"
-		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin2_Description"	"Дает небольшой шанс оглушить противника на полсекунды."
-
-		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin3"	"Сильный удар"
-		"DOTA_Tooltip_ability_android_pocket_factory_spawn_goblin3_Description"	"Дает небольшой шанс оглушить противника на полсекунды."
-
-		"DOTA_Tooltip_ability_android_armor"	"Броня"
-		"DOTA_Tooltip_ability_android_armor_Description"	"Блокирует некоторый урон, нанесенный Андроиду."
-		"DOTA_Tooltip_ability_android_armor_damage_blocked"	"БЛОКИРУЕМЫЙ УРОН:"
-
-		"DOTA_Tooltip_ability_android_cluster_rockets"	"Ракетный Удар"
-		"DOTA_Tooltip_ability_android_cluster_rockets_Description"	"Пуск ракет по указанной области. Ракеты наносят урон всем наземным противникам, оказавшимся поблизости, и оглушают их на 1 секунду."
-		"DOTA_Tooltip_ability_android_cluster_rockets_damage"	"УРОН ОДНОЙ РАКЕТЫ:"
-		"DOTA_Tooltip_ability_android_cluster_rockets_projectile_count"	"КОЛИЧЕСТВО РАКЕТ:"
-
-		"DOTA_Tooltip_ability_witch_doctor_negative_energy"	"Негативная Энергия"
-		"DOTA_Tooltip_ability_witch_doctor_negative_energy_Description"	"Поток негативной энергии, наносящий всем, стоящим на его пути, урон."
-		"DOTA_Tooltip_ability_witch_doctor_negative_energy_damage"	"УРОН:"
-		"DOTA_Tooltip_ability_witch_doctor_negative_energy_Note0"	"Улучшается Сферическим Посохом. Увеличевается урон."
-
-		"DOTA_Tooltip_ability_witch_doctor_negative_energy_scepter"	"Негативная Энергия"
-		"DOTA_Tooltip_ability_witch_doctor_negative_energy_scepter_Description"	"Поток негативной энергии, наносящий всем, стоящим на его пути, урон."
-		"DOTA_Tooltip_ability_witch_doctor_negative_energy_scepter_damage"	"УРОН:"
-
-		"DOTA_Tooltip_ability_witch_doctor_frost_armor"	"Ледяная Броня"
-		"DOTA_Tooltip_ability_witch_doctor_frost_armor_Description"	"Заклинание окружает указанного воина ледяной броней, повышающей его защиту и сковывающей движения противника ближнего боя, атакующего этого воина. Замедляет передвижение на 40% и атаку на 25 единиц на 5 секунд."
-		"DOTA_Tooltip_ability_witch_doctor_frost_armor_armor_bonus"	"ДОПОЛНИТЕЛЬНАЯ БРОНЯ:"
-		"DOTA_Tooltip_ability_witch_doctor_frost_armor_duration"	"ДЛИТЕЛЬНОСТЬ:"
-		"DOTA_Tooltip_ability_witch_doctor_frost_armor_Note0"	"Улучшается Сферическим Посохом. Увеличевает броню и длительность."
-
-		"DOTA_Tooltip_ability_witch_doctor_frost_armor_scepter"	"Ледяная Броня"
-		"DOTA_Tooltip_ability_witch_doctor_frost_armor_scepter_Description"	"Заклинание окружает указанного воина ледяной броней, повышающей его защиту и сковывающей движения противника ближнего боя, атакующего этого воина. Замедляет передвижение на 40% и атаку на 25 единиц на 5 секунд."
-		"DOTA_Tooltip_ability_witch_doctor_frost_armor_scepter_armor_bonus"	"ДОПОЛНИТЕЛЬНАЯ БРОНЯ:"
-		"DOTA_Tooltip_ability_witch_doctor_frost_armor_scepter_duration"	"ДЛИТЕЛЬНОСТЬ:"
-
-		"DOTA_Tooltip_modifier_frost_armor_slow"	"Ледяная Броня"
-		"DOTA_Tooltip_modifier_frost_armor_slow_Description"	"Этот воин замедлен."
-
-		"DOTA_Tooltip_modifier_frost_armor"	"Ледяная Броня"
-		"DOTA_Tooltip_modifier_frost_armor_Description"	"У этого воина повышена защита, и он может замедлять врагов ближнего боя, которые его атакуют."	
-
-		"DOTA_Tooltip_ability_witch_doctor_discharge"	"Разряд"
-		"DOTA_Tooltip_ability_witch_doctor_discharge_Description"	"Все враги в радиусе 300 единиц получают урон и отталкиваются назад. Союзники в этом же радиусе восполняют своё здоровье."
-		"DOTA_Tooltip_ability_witch_doctor_discharge_damage"	"УРОН:"
-		"DOTA_Tooltip_ability_witch_doctor_discharge_heal"	"ЛЕЧЕНИЕ:"
-		"DOTA_Tooltip_ability_witch_doctor_discharge_distance"	"ДАЛЬНОСТЬ ОТТАЛКИВАНИЯ:"
-		"DOTA_Tooltip_ability_witch_doctor_discharge_air_time"	"ДЛИТЕЛЬНОСТЬ ОТТАЛКИВАНИЯ:"		
-
-		"DOTA_Tooltip_ability_witch_doctor_regeneration"	"Регенерация"
-		"DOTA_Tooltip_ability_witch_doctor_regeneration_Description"	"Знахарь полностью восполняет здоровье и ману всех своих союзников."
 
 
 
-		"DOTA_Tooltip_ability_serpent_queen_ball_lightning"	"Шаровые Молнии"
-		"DOTA_Tooltip_ability_serpent_queen_ball_lightning_Description"	"Вокруг Королевы Змей появляются шаровые молнии, которые наносят урон врагам при прикосновении."
-		"DOTA_Tooltip_ability_serpent_queen_ball_lightning_locusts"	"КОЛИЧЕСТВО МОЛНИЙ:"
-		"DOTA_Tooltip_ability_serpent_queen_ball_lightning_locust_damage"	"DAMAGE:"
-		"DOTA_Tooltip_ability_serpent_queen_ball_lightning_duration"	"ДЛИТЕЛЬНОСТЬ:"		
+
+
 		
-		"DOTA_Tooltip_modifier_locust_swarm"	"Шаровые Молнии"		
-
-		"DOTA_Tooltip_ability_serpent_queen_heavenly_power"	"Небесная Сила"
-		"DOTA_Tooltip_ability_serpent_queen_heavenly_power_Description"	"Королева Змей получает дополнительную ловкость на некоторое время."
-		"DOTA_Tooltip_ability_serpent_queen_heavenly_power_bonus_agility" "ДОПОЛНИТЕЛЬНАЯ ЛОВКОСТЬ:"
-		"DOTA_Tooltip_ability_serpent_queen_heavenly_power_duration" "ДЛИТЕЛЬНОСТЬ:"
-
-		"DOTA_Tooltip_modifier_serpent_queen_heavenly_power"	"Небесная Сила"
-		"DOTA_Tooltip_modifier_serpent_queen_heavenly_power_Description"	"У Королевы Змей увеличена ловкость."
-
-		"DOTA_Tooltip_ability_serpent_queen_accuracy"	"Меткость"
-		"DOTA_Tooltip_ability_serpent_queen_accuracy_Description"	"У Королевы Змей есть шанс кратковременно оглушить противника и нанести ему урон при атаке."
-		"DOTA_Tooltip_ability_serpent_queen_accuracy_bash_chance"	"%ШАНС ОГЛУШЕНИЯ:"
-		"DOTA_Tooltip_ability_serpent_queen_accuracy_stun_duration"	"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 		
-		"DOTA_Tooltip_ability_serpent_queen_anger"	"Злоба"
-		"DOTA_Tooltip_ability_serpent_queen_anger_Description"	"Королева Змей дает дополнительный урон всем союзникам в радиусе 1000."
-		"DOTA_Tooltip_ability_serpent_queen_anger_bonus_damage"	"ДОПОЛНИТЕЛЬНЫЙ УРОН:"
-		"DOTA_Tooltip_ability_serpent_queen_anger_duration"	"ДЛИТЕЛЬНОСТЬ:"		
 		
-		"DOTA_Tooltip_modifier_serpent_queen_anger"	"Злоба"
-		"DOTA_Tooltip_modifier_serpent_queen_anger_Description"	"Урон этого юнита увеличен."		
+		
+		
+		
+		
+		
+		
+
 
 		"DOTA_Tooltip_ability_shadow_master_shadow"	"Shadow"
 		"DOTA_Tooltip_ability_shadow_master_shadow_Description"	"Shadow Master summons a shadow that fights for his. Shadow's attributer are equal to some percentage of its owner's attributes."
@@ -1583,43 +1641,7 @@
 
 
 
-		"DOTA_Tooltip_ability_vampire_life_drain"	"Высосать Жизнь"
-		"DOTA_Tooltip_ability_vampire_life_drain_Description"	"Вампир начинает высасывать жизнь из всех врагов в радиусе 375, нанося им урон и вылечивая себя. Урон зависит от количества <font color='#cc0605'>пунктов жажды</font> Вампира. Также наносится некоторое постоянное значение урона."
-		"DOTA_Tooltip_ability_vampire_life_drain_damage_per_second"	"ПОСТОЯННЫЙ УРОН В СЕКУНДУ:"
-		"DOTA_Tooltip_ability_vampire_life_drain_damage_multiplier"	"МНОЖИТЕЛЬ ПУНКТОВ ЖАЖДЫ ДЛЯ УРОНА:"
-		"DOTA_Tooltip_ability_vampire_life_drain_duration"	"ДЛИТЕЛЬНОСТЬ:"
 
-		"DOTA_Tooltip_modifier_vampire_life_drain"	"Высосать Жизнь"
-
-		"DOTA_Tooltip_ability_vampire_lifesteal"	"Вампиризм"
-		"DOTA_Tooltip_ability_vampire_lifesteal_Description"	"Вампир получает вампиризм и способность накапливать <font color='#ccc0605'>пункты жажды</font>. Герой получает 1 пункт жажды за убийство. Количество пунктов жажды ограничено. Вампир тратит все пункты жажды при произнесении заклинания.<br>Данный вампиризм не является уникальны модификатором атаки, однако он перекрывает вампиризм от Копья Аланита или Меча Крови."
-		"DOTA_Tooltip_ability_vampire_lifesteal_lifesteal_percentage"	"%ВАМПИРИЗМ:"
-		"DOTA_Tooltip_ability_vampire_lifesteal_thirst_points_max"	"ЛИМИТ ПУНКТОВ ЖАЖДЫ:"
-
-		"DOTA_Tooltip_modifier_vampire_lifesteal"	"Вампиризм"
-		"DOTA_Tooltip_modifier_vampire_lifesteal_Description"	"Количество <font color='#ccc0605'>пунктов жажды</font>"
-
-		"DOTA_Tooltip_ability_vampire_thirst"	"Жажда"
-		"DOTA_Tooltip_ability_vampire_thirst_Description"	"Когда Вампир чувствует в радиусе 500 врага со здоровьем, ниже 30%%, он получает дополнительные скорость и <font color='#ccc0605'>пункты жажды</font>."
-		"DOTA_Tooltip_ability_vampire_thirst_thirst_points_bonus"	"ДОПОЛНИТЕЛЬНЫЕ ПУНКТЫ ЖАЖДЫ:"
-		"DOTA_Tooltip_ability_vampire_thirst_attack_speed_bonus"	"ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ АТАКИ:"
-
-		"DOTA_Tooltip_modifier_vampire_thirst_bonus"	"Жажда"
-		"DOTA_Tooltip_modifier_vampire_thirst_bonus_Description"	"Скорость атаки Вампира увеличена."
-
-		"DOTA_Tooltip_ability_vampire_transformation"	"Превращение"
-		"DOTA_Tooltip_ability_vampire_transformation_Description"	"Вампир наносит урон врагам в раиусе 300 и превращается в летучую мышь с увеличенными здоровьем, скоростью атаки и перемещения и регенерацией. Вампир также начинает наносить урон по площади и лечиться при атаке. Начальный урон, регенерация, урон по площади и лечение зависят от <font color='#ccc0605'>пунктов жажды</font>."
-		"DOTA_Tooltip_ability_vampire_transformation_base_attack_time"		"БАЗОВАЯ ПЕРЕЗАРЯДКА АТАКИ:"
-		"DOTA_Tooltip_ability_vampire_transformation_bonus_movement_speed"	"ДОПОЛНИТЕЛЬНАЯ СКОРОСТЬ ПЕРЕМЕЩЕНИЯ:"
-		"DOTA_Tooltip_ability_vampire_transformation_bonus_range"			"ДОПОЛНИТЕЛЬНАЯ ДАЛЬНОСТЬ АТАКИ:"
-		"DOTA_Tooltip_ability_vampire_transformation_tp_regen_mult"			"МНОЖИТЕЛЬ ПУНКТОВ ЖАЖДЫ ДЛЯ РЕГЕНЕРАЦИИ:"
-		"DOTA_Tooltip_ability_vampire_transformation_tp_aoe_dmg_mult"		"МНОЖИТЕЛЬ ПУНКТОВ ЖАЖДЫ ДЛЯ АТАКИ ПО ПЛОЩАДИ:"
-		"DOTA_Tooltip_ability_vampire_transformation_tp_transformation_dmg_mult"	"МНОЖИТЕЛЬ ПУНКТОВ ЖАЖДЫ ДЛЯ НАЧАЛЬНОГО УРОНА:"
-		"DOTA_Tooltip_ability_vampire_transformation_tp_attack_heal_mult"			"МНОЖИТЕЛЬ ПУНКТОВ ЖАЖДЫ ДЛЯ ЛЕЧЕНИЯ:"
-		"DOTA_Tooltip_ability_vampire_transformation_bonus_health"			"ДОПОЛНИТЕЛЬНОЕ ЗДОРОВЬЕ:"
-		"DOTA_Tooltip_ability_vampire_transformation_duration"				"ДЛИТЕЛЬНОСТЬ:"
-
-		"DOTA_Tooltip_modifier_vampire_transformation"	"Превращение"
 
 
 		
